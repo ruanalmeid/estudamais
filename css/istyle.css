@@ -1,0 +1,164 @@
+
+
+* {
+   margin: 0%; 
+   padding: 0%;
+ }
+
+.logo {
+    font-size: 250%;
+    color: yellowgreen;
+    background-color: green;
+    text-decoration: none;
+    margin-right: 80px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo1 {
+    background-color: green;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.hl2 {
+    padding-top: 1%;
+    color: rgb(116, 116, 116);
+}
+
+.a1 {
+    font-size: 25px;
+    color:gray;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+
+
+}
+
+.img1 {
+    margin-left: 10%;
+    margin-top: -2.5%;
+    transition: .2s;
+}
+
+.img1:hover {
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+
+.imgs {
+    margin-top: -15px;
+    transition: 0.2s;
+}
+
+
+.img2{
+    margin-top: -11%;
+    margin-left: 1%;
+}
+
+.img3 {
+    margin-left: 1%;
+    margin-top: -10%;
+}
+
+.a50 {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+.as {
+    margin-right: 1.5%;
+    margin-top: -10.9px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p1 {
+    margin-left: 10.8%;
+    margin-top: 100px;
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+}
+
+.p2 {
+    margin-left: 3.5%;
+    margin-top: -10%;
+    color: grey;
+    text-decoration: none;
+}
+
+.p3 {
+    margin-left: 4.3%;
+    margin-top: -2.7%;
+    color: gray;
+    text-decoration: none;
+}
+
+.divlingu {
+    margin-top: 30px;
+}
+
+.mt {
+    margin-top: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img4{
+    margin-left: 105px;
+    margin-top: -109px;
+}
+
+.roda-pe {
+    background-color: green;
+   padding-bottom: 100px;
+   margin-top: 38%;
+   color: yellowgreen;
+   font-family: 'Roboto', sans-serif;
+}
+
+.h22 {
+    margin-left: 30%;
+    text-align: center;
+    display: flex;
+}
+
+.linkdireto {
+    margin-top: 0.11%;
+}
+
+.cmatematica {
+    text-decoration: none;
+    background-color: green;
+    color: yellowgreen;
+    border: 2px solid  green;
+    border-radius: 10px;
+    font-size: 150%;
+    ruby-span: none;
+    transition:.2s;
+}
+
+.cmatematica:hover {
+    transition: .2s;
+    transform: scale(2);
+}
+
+.cportugues {
+    margin-left: 5px;
+    text-decoration: none;
+    background-color: green;
+    color: yellowgreen;
+    border: 2px solid  green;
+    border-radius: 10px;
+    font-size: 150%;
+}
+
+.tudo {
+    font-family: 'Roboto', sans-serif;
+}
+
+

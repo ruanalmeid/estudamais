@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/aluno/Desktop/RUan.web/parcialweb/img/sjnws.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1559"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,7:maincliente"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">CREATE TABLE produto_loja (
+	&quot;id&quot; INT(3),
+	&quot;produto&quot; VARCHAR(50) NOT NULL,
+	&quot;preco&quot;	INT(5) NOT NULL,
+	&quot;quantidade&quot; INT(5) NOT NULL,
+	&quot;vendidos&quot; INT(5) NOT NULL,
+	PRIMARY KEY(&quot;id&quot;)
+);
+
+INSERT INTO produto_loja (id, produtos_nome, preco, quantidade, vendidos)
+VALUES
+(1,'PC gamer rizer 7 16g ram', 'R$2.889', 5, 3),
+(2, 'Game pad IPEGA', 'R$118.53', 28, 12),
+(3, 'Steam deck', 'R$3.559', 8, 5 ),
+(4, 'xbox series x', 'R$5.157', 2, 3),
+(5, 'xbox series s', 'R$2.695', 6, 5),
+(6, 'ps5' 'R$4.049', 3, 1),
+(7, 'ps4', 'R$2.596', 5, 2),
+(8, 'IPhone 11', 'R$2.498', 3, 1),
+(9, 'IPhone 13', 'R$4.299', 8, 4),
+(10, 'fone Bluetooth', 'R$105',	12,	10),
+(11, 'teclado mecânico', 'R$282', 11, 4),
+(12, 'mouse gamer', 'R$152', 8, 3),
+(13, 'mouse pad', 'R$34', 15, 6),
+(14, 'notebook gamer nitro 5','R$4.499', 3, 0),
+(15, 'cadeira gamer', 'R$779', 5, 2), 
+(16, 'fone gamer', 'R$160', 17, 5),
+(17, 'cadeira ergonômica', 'R$1.399', 2, 1),
+(18, 'poco x3', 'R$2.636', 8, 3),
+(19, 'rog phone', 'R$9.499', 1, 0),
+(20, 'ps2', 'R$250', 10, 2);</sql><current_tab id="0"/></tab_sql></sqlb_project>
